@@ -11,22 +11,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col">
-          <h1>Ramalan Cuaca</h1>
-        </div>
-      </div>
-
-      <div class="row mt-2">
-        <div class="col-md-8">
-          <div class="input-group mb-3">
-            <input type="text" class="form-control input" aria-label="Recipient's username" aria-describedby="btn" />
-            <button class="btn btn-primary" type="button" id="btn">Search</button>
+    <div class="container-fluid px-1 px-sm-3 py-5 mx-auto">
+      <div class="row d-flex justify-content-center">
+          <div class="row card0">
+              <div class="card1 col-lg-8 col-md-7 d-flex align-items-end">
+                  <div class="row px-3 mt-5 mb-5 ms-lg-3">
+                      <h1 class="large-font">26&#176;</h1>
+                      <div class="d-flex flex-column">
+                          <h2>London</h2>
+                          <small>10:36 - Tuesday, 22 Oct '19</small>
+                      </div>
+                  </div>
+              </div>
+              <div class="card2 col-lg-4 col-md-5 bg-light">
+                  <div class="row px-3">
+                      <input type="text" name="location" placeholder="Another location" class="mb-5">
+                      <div class="fa fa-search mb-5 mr-0 text-center"></div>
+                  </div>
+                  <div class="mr-5">
+                    <hr >  
+                      <p>Weather Details</p>
+                      <div class="row px-3">
+                          <p class="light-text">Cloudy</p>
+                          <p class="ml-auto">12%</p>
+                      </div>
+                      <div class="row px-3">
+                          <p class="light-text">Humidity</p>
+                          <p class="ml-auto">78%</p>
+                      </div>
+                      <div class="row px-3">
+                          <p class="light-text">Wind</p>
+                          <p class="ml-auto">1km/h</p>
+                      </div>
+                      <div class="row px-3">
+                          <p class="light-text">Rain</p>
+                          <p class="ml-auto">0mm</p>
+                      </div>
+  
+                      <div class="line mt-3"></div>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
+  </div>
 
     <div class="container mt-5 result"></div>
     <script src="js/bootstrap.bundle.min.js"></script>
