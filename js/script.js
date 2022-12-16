@@ -8,9 +8,9 @@ searchBtn.addEventListener("click", function () {
       let result = document.querySelector(".result");
 
       result.innerHTML = `<h2>City : ${response.name}</h2>
-                                <h5>Condition : ${response.weather[0].description}</h5>
-                                <p">Temperature : ${response.main.temp}°С</p>
-                                <h5>Wind Speed : ${response.wind.speed} km/h</h5>`;
+                          <h5>Condition : ${response.weather[0].description}</h5>
+                          <h5>Temperature : ${response.main.temp}°С</h5>
+                          <h5>Wind Speed : ${response.wind.speed} km/h</h5>`;
     });
   input.value = null;
 });
