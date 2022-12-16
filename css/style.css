@@ -5,9 +5,76 @@
   box-sizing: border-box;
   font-family: "Basic", sans-serif;
 }
+<<<<<<< HEAD
 
 body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../img/bg.jpg);
 }
+=======
+body {
+  overflow-x: hidden;
+  height: 100%;
+  background-image: linear-gradient(#81D4FA, #2196F3);
+  background-repeat: no-repeat;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.card0 {
+  width: 90%;
+  border-radius: 100% !important;
+}
+
+.card1 {
+  color: #fff;
+  background-image: url('../img/natural.jpg');
+  background-size: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  background-color: #f6f8fd;
+}
+
+.large-font {
+  font-size: 70px;
+  font-family: Arial;
+}
+
+input{
+  border-radius: 50px !important;
+  padding-left: 30px !important;
+  border: none !important;
+  background-color: #e5e9f2 !important;
+}
+button{
+  border-radius: 50px!important;
+  font-weight: 600 !important;
+}
+
+
+.light-text {
+  color: #B0BEC5;
+}
+
+.suggestion:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.line {
+  height: 1px;
+  background-color: #B0BEC5;
+}
+
+@media screen and (max-width: 500px) {
+  .card1 {
+      padding-left: 26px;
+  }
+}
+>>>>>>> refs/remotes/origin/main
